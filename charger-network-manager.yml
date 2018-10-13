@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: charger-network-manager
+  port:
+    8103
+
+eureka:
+  client:
+    region:  default
+    registerWithEureka: true
+    registryFetchIntervalSeconds: 5
+    serviceUrl:
+      defaultZone: http://charger-network-discovery:8102/eureka/
