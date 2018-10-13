@@ -10,4 +10,4 @@ eureka:
     registerWithEureka: true
     registryFetchIntervalSeconds: 5
     serviceUrl:
-      defaultZone: http://charger-network-discovery:8102/eureka/
+      defaultZone: http://charger-network-discovery:8761/eureka/
