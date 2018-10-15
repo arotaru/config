@@ -7,7 +7,7 @@ spring:
 eureka:
   client:
     region:  default
-    registerWithEureka: false
+    registerWithEureka: true
     registryFetchIntervalSeconds: 5
     serviceUrl:
       defaultZone: http://charger-network-discovery:8761/eureka/
