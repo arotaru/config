@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: charger-account-manager
+  port:
+    8104
+
+eureka:
+  client:
+    region:  default
+    registerWithEureka: true
+    registryFetchIntervalSeconds: 5
+    serviceUrl:
+      defaultZone: http://charger-network-discovery:8761/eureka/
