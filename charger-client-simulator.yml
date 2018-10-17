@@ -2,7 +2,7 @@ spring:
   application:
     name: charger-client-simulator
   port:
-    8083
+    8105
 
 eureka:
   client:
@@ -10,4 +10,4 @@ eureka:
     registerWithEureka: true # if this is set to false, this service will not be registered with Eureka; won't be visible in the Eureka UI Monitor; assume won't be discoverable by other services
     registryFetchIntervalSeconds: 5
     serviceUrl:
-      defaultZone: http://charger-client-discovery:8762/eureka/
+      defaultZone: http://charger-network-discovery:87621/eureka/
