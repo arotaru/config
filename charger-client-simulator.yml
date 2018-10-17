@@ -2,7 +2,7 @@ spring:
   application:
     name: charger-client-simulator
   port:
-    8103
+    8083
 
 eureka:
   client:
